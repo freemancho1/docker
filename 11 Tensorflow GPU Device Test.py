@@ -15,6 +15,9 @@ print(f'Tensorflow version : {tf.__version__}{"-gpu" if tf.config.experimental.l
 print(f'Keras version : {keras.__version__}')
 
 print(f'\n사용 가능한 GPU Device: {tf.test.gpu_device_name()}')
+    
+      
+      
       
 # Tensorflow version >= 2.0
 
